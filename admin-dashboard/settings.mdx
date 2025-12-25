@@ -1,0 +1,197 @@
+---
+title: "XP Settings"
+description: "Configure XP rates, multipliers, channels, and moderation"
+---
+
+## Overview
+
+XP Settings is where you configure all aspects of your XP system, including rates, multipliers, channel-specific rules, moderation settings, and voice XP tracking.
+
+## Settings Tabs
+
+### XP Events
+
+Configure temporary XP multiplier events:
+
+- **Create Events**: Set up double XP weekends, special events
+- **Event Duration**: Start and end times
+- **Multiplier**: XP multiplier (2x, 3x, etc.)
+- **Scope**: Apply to all activity or specific types
+- **Active Events**: View and manage current events
+
+### Channel Configuration
+
+Set XP rules for specific channels:
+
+- **Channel Selection**: Choose Discord channels
+- **XP Multiplier**: Custom multiplier per channel
+- **Enable/Disable**: Turn XP on/off for channels
+- **Special Rules**: Channel-specific XP rules
+
+### Moderation Settings
+
+Configure moderation-related XP features:
+
+- **XP Penalties**: Deduct XP for rule violations
+- **Mute Handling**: XP behavior during mutes
+- **Ban Handling**: XP behavior for banned members
+- **Warning System**: XP penalties for warnings
+
+### Voice XP
+
+Configure voice channel XP tracking:
+
+- **Enable Voice XP**: Turn on voice activity tracking
+- **XP Rate**: XP per minute in voice
+- **Minimum Time**: Minimum time to earn XP
+- **AFK Detection**: Ignore AFK members
+- **Channel Rules**: Per-channel voice XP settings
+
+## XP Configuration
+
+### Base XP Settings
+
+Configure the core XP system:
+
+- **XP Range**: Min and max XP per message (default: 15-25)
+- **Cooldown**: Time between XP gains (default: 60 seconds)
+- **XP Per Level**: XP required per level (default: 100)
+- **Enable/Disable**: Toggle XP tracking for server
+
+### Level System
+
+Customize the leveling system:
+
+- **XP Per Level**: Base XP needed per level
+- **Level Scaling**: Whether higher levels need more XP
+- **Max Level**: Maximum level cap (if any)
+- **Level Display**: How levels are shown to members
+
+### Level Rewards
+
+Auto-assign Discord roles at levels:
+
+- **Add Reward**: Set role for specific level
+- **Role Selection**: Choose Discord role to assign
+- **Level Threshold**: Level at which to assign
+- **Remove Rewards**: Delete level reward rules
+
+## Channel-Specific Rules
+
+### Per-Channel Configuration
+
+Set different XP rules for channels:
+
+- **Select Channel**: Choose from your Discord channels
+- **XP Multiplier**: Set custom multiplier (0.5x, 2x, etc.)
+- **Disable XP**: Turn off XP for specific channels
+- **Special Rules**: Channel-specific configurations
+
+### Use Cases
+
+- **General Chat**: Normal XP (1x)
+- **Important Channels**: Higher XP (2x)
+- **Off-Topic**: Lower XP (0.5x)
+- **No XP Channels**: Disable XP (0x)
+
+## XP Events
+
+### Creating Events
+
+Set up temporary XP boosts:
+
+1. **Name**: Event name (e.g., "Double XP Weekend")
+2. **Type**: XP multiplier event
+3. **Multiplier**: 2x, 3x, etc.
+4. **Start Date**: When event begins
+5. **End Date**: When event ends
+6. **Scope**: All activity or specific types
+
+### Event Management
+
+- **Active Events**: View currently running events
+- **Upcoming Events**: Scheduled future events
+- **Past Events**: Historical events
+- **Edit/Delete**: Modify or remove events
+
+## Moderation Integration
+
+### XP Penalties
+
+Configure XP deductions for:
+
+- **Warnings**: XP penalty per warning
+- **Mutes**: XP behavior during mutes
+- **Bans**: XP handling for banned members
+- **Rule Violations**: Custom penalties
+
+### Moderation Actions
+
+How moderation affects XP:
+
+- **Muted Members**: Can still earn XP or not
+- **Banned Members**: XP retention or removal
+- **Warning System**: XP penalties for warnings
+
+## Voice XP Configuration
+
+### Voice Activity Tracking
+
+Configure voice channel XP:
+
+- **Enable Tracking**: Turn on voice XP
+- **XP Per Minute**: XP earned per minute in voice
+- **Minimum Duration**: Minimum time to earn (e.g., 5 minutes)
+- **AFK Detection**: Ignore AFK members automatically
+
+### Voice Channel Rules
+
+Per-channel voice XP settings:
+
+- **Channel Selection**: Choose voice channels
+- **Custom Rates**: Different XP rates per channel
+- **Enable/Disable**: Turn voice XP on/off per channel
+
+## Best Practices
+
+<AccordionGroup>
+  <Accordion title="Start with Defaults">
+    Begin with default settings and adjust based on your community's needs.
+  </Accordion>
+  <Accordion title="Use Channel Multipliers">
+    Reward important channels with higher XP multipliers to guide engagement.
+  </Accordion>
+  <Accordion title="Create Events">
+    Use XP events for special occasions to boost engagement.
+  </Accordion>
+  <Accordion title="Set Level Rewards">
+    Configure level rewards early to give members goals to work toward.
+  </Accordion>
+</AccordionGroup>
+
+## Saving Changes
+
+- **Save Button**: Click to save all settings
+- **Auto-Save**: Some settings save automatically
+- **Confirmation**: You'll see a confirmation when saved
+- **Validation**: Invalid settings will show errors
+
+## Next Steps
+
+<CardGroup cols={2}>
+  <Card
+    title="Create Challenges"
+    icon="target"
+    href="/admin-dashboard/challenges"
+  >
+    Now that XP is configured, create challenges.
+  </Card>
+  <Card
+    title="View Analytics"
+    icon="trending-up"
+    href="/admin-dashboard/analytics"
+  >
+    Monitor how your XP settings affect engagement.
+  </Card>
+</CardGroup>
+

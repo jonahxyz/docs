@@ -1,0 +1,150 @@
+---
+title: "XP System"
+description: "How the XP and leveling system works"
+---
+
+## Overview
+
+NovaXP's XP (Experience Points) system automatically tracks member activity and rewards engagement with XP, levels, and rewards.
+
+## How XP Works
+
+### Automatic Tracking
+
+XP is awarded automatically for:
+
+- **Messages**: Sending messages in text channels
+- **Reactions**: Reacting to messages
+- **Voice Activity**: Time spent in voice channels
+- **Challenge Completion**: Bonus XP from challenges
+
+### XP Calculation
+
+#### Base XP
+
+- **Range**: 15-25 XP per message (configurable)
+- **Random**: XP is randomized within the range
+- **Cooldown**: 60 seconds between XP gains (configurable)
+
+#### Multipliers
+
+XP can be multiplied by:
+
+- **Channel Multipliers**: Different XP rates per channel
+- **XP Events**: Temporary multiplier events (2x, 3x, etc.)
+- **Shop Items**: XP multiplier items from shop
+- **Level Bonuses**: Higher levels may earn more
+
+## Level System
+
+### Level Calculation
+
+Levels are calculated based on:
+
+- **Base XP Per Level**: 100 XP (configurable)
+- **Level Formula**: `Level = Total XP / XP Per Level`
+- **Level Scaling**: Optional exponential scaling for higher levels
+
+### Leveling Up
+
+When you level up:
+
+- **Notification**: You're notified of level up
+- **Role Rewards**: Automatic role assignment (if configured)
+- **XP Reset**: XP resets to 0 for next level
+- **Achievement**: Level up achievement badge
+
+## Level Rewards
+
+### Automatic Role Assignment
+
+Server admins can configure:
+
+- **Level Thresholds**: Specific levels (e.g., Level 10, 25, 50)
+- **Discord Roles**: Roles to assign at each level
+- **Automatic Assignment**: Roles assigned automatically
+- **Multiple Rewards**: Different roles at different levels
+
+### Reward Examples
+
+Common level rewards:
+
+- **Level 5**: Member role
+- **Level 10**: Active member role
+- **Level 25**: Veteran role
+- **Level 50**: Elite role
+
+## XP Sources
+
+### Messages
+
+- **Text Messages**: XP for sending messages
+- **Channel-Specific**: Different rates per channel
+- **Cooldown**: Time between XP gains
+- **Minimum Length**: Some servers require minimum message length
+
+### Reactions
+
+- **Reaction XP**: XP for reacting to messages
+- **Reaction Types**: Different reactions may have different XP
+- **Reaction Limits**: Limits on reactions per message
+
+### Voice Activity
+
+- **Voice XP**: XP for time in voice channels
+- **Per Minute**: XP earned per minute (configurable)
+- **Minimum Time**: Minimum time to earn XP
+- **AFK Detection**: AFK members don't earn XP
+
+### Challenges
+
+- **Challenge XP**: Bonus XP from completing challenges
+- **One-Time**: Usually awarded once per challenge
+- **Variable Amounts**: Different challenges offer different XP
+
+## XP Configuration
+
+Server admins can configure:
+
+- **XP Range**: Min and max XP per message
+- **Cooldown**: Time between XP gains
+- **XP Per Level**: XP required per level
+- **Channel Rules**: Per-channel XP rates
+- **Enable/Disable**: Turn XP on/off
+
+## Best Practices
+
+<AccordionGroup>
+  <Accordion title="Stay Active">
+    Regular activity earns steady XP. Consistency is key.
+  </Accordion>
+  <Accordion title="Engage in All Channels">
+    Participate in different channels to maximize XP opportunities.
+  </Accordion>
+  <Accordion title="Complete Challenges">
+    Challenges offer significant XP bonuses.
+  </Accordion>
+  <Accordion title="Use Voice Channels">
+    Voice activity is another way to earn XP.
+  </Accordion>
+</AccordionGroup>
+
+## Next Steps
+
+<CardGroup cols={2}>
+  <Card
+    title="View Challenges"
+    icon="target"
+    href="/features/challenges"
+  >
+    Learn about challenges to earn bonus XP.
+  </Card>
+  <Card
+    title="Check Shop"
+    icon="shopping-bag"
+    href="/features/shop"
+  >
+    See how to spend your XP in the shop.
+  </Card>
+</CardGroup>
+

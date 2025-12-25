@@ -1,0 +1,104 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "NovaXP Documentation",
+  "colors": {
+    "primary": "#9584FF",
+    "light": "#C2B7FB",
+    "dark": "#060610"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "index",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "User Dashboard",
+            "pages": [
+              "user-dashboard/overview",
+              "user-dashboard/dashboard",
+              "user-dashboard/leaderboard",
+              "user-dashboard/challenges",
+              "user-dashboard/shop",
+              "user-dashboard/education"
+            ]
+          },
+          {
+            "group": "Admin Dashboard",
+            "pages": [
+              "admin-dashboard/overview",
+              "admin-dashboard/dashboard",
+              "admin-dashboard/challenges",
+              "admin-dashboard/users",
+              "admin-dashboard/analytics",
+              "admin-dashboard/voting",
+              "admin-dashboard/education",
+              "admin-dashboard/shop",
+              "admin-dashboard/support",
+              "admin-dashboard/tracking",
+              "admin-dashboard/settings",
+              "admin-dashboard/audit",
+              "admin-dashboard/subscription"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/xp-system",
+              "features/challenges",
+              "features/voting",
+              "features/shop",
+              "features/education",
+              "features/analytics"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Dashboard",
+          "href": "https://app.novaxp.com",
+          "icon": "layout-dashboard"
+        },
+        {
+          "anchor": "Support",
+          "href": "mailto:support@novaxp.com",
+          "icon": "headphones"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@novaxp.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get Started",
+      "href": "https://app.novaxp.com/login"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/novaxp",
+      "github": "https://github.com/novaxp"
+    }
+  }
+}
