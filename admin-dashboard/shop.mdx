@@ -1,103 +1,50 @@
 ---
 title: "XP Shop Management"
-description: "Manage shop items and rewards members can purchase"
+description: "Manage shop items members can purchase"
 ---
 
 ## Overview
 
-The XP Shop Management page allows you to create, edit, and manage items that members can purchase with their accumulated XP.
+Create and manage items that members can purchase with their accumulated XP.
 
 ## Creating Shop Items
 
 ### Item Types
+- **Discord Roles**: Roles members can buy
+- **Perks**: XP multipliers, badges, priority support
+- **Custom Rewards**: Server-specific items
 
-#### Discord Roles
-
-- **Role Selection**: Choose Discord role to sell
+### Configuration
+- **Name & Description**: What the item is
 - **Price**: XP cost
-- **Description**: What the role provides
-- **Availability**: Stock limits (if any)
-
-#### Perks
-
-- **XP Multipliers**: Boost XP earning rate
-- **Custom Badges**: Special badges
-- **Priority Support**: Faster support
-- **Exclusive Access**: Access to special features
-
-#### Custom Rewards
-
-- **Custom Items**: Server-specific rewards
-- **Special Privileges**: Unique perks
-- **One-Time Bonuses**: Single-use rewards
-
-### Item Configuration
-
-When creating items, set:
-
-- **Name**: Item name
-- **Description**: Detailed description
-- **Price**: XP cost
-- **Category**: Item category
+- **Category**: Item type
 - **Stock**: Available quantity (if limited)
 - **Requirements**: Level or role prerequisites
-- **Duration**: How long item lasts (if temporary)
 
-## Managing Shop Items
+## Managing Items
 
-### Active Items
+- Edit item details
+- Disable or delete items
+- Update stock levels
+- View sales analytics
 
-View and manage available items:
+## Shop Analytics
 
-- **Edit**: Modify item details
-- **Disable**: Temporarily hide from shop
-- **Delete**: Remove item permanently
-- **Stock Management**: Update stock levels
+Track:
+- Sales count
+- Total XP earned
+- Most popular items
+- Sales trends
 
-### Item Analytics
+## Tips
 
-Track item performance:
-
-- **Sales Count**: How many times purchased
-- **Total Revenue**: XP earned from sales
-- **Popularity**: Most purchased items
-- **Sales Trends**: Sales over time
-
-## Shop Settings
-
-### Shop Configuration
-
-Configure shop behavior:
-
-- **Shop Status**: Enable/disable shop
-- **Default Categories**: Organize items
-- **Purchase Limits**: Limits per member
-- **Refund Policy**: Refund rules
-
-## Best Practices
-
-<AccordionGroup>
-  <Accordion title="Variety">
-    Offer a variety of items at different price points to appeal to all members.
-  </Accordion>
-  <Accordion title="Clear Descriptions">
-    Write clear descriptions so members know exactly what they're buying.
-  </Accordion>
-  <Accordion title="Fair Pricing">
-    Price items fairly based on their value to members.
-  </Accordion>
-  <Accordion title="Regular Updates">
-    Add new items regularly to keep the shop fresh and engaging.
-  </Accordion>
-</AccordionGroup>
+- Offer variety at different price points
+- Write clear descriptions
+- Price items fairly
+- Add new items regularly
 
 ## Next Steps
 
-<Card
-  title="View Analytics"
-  icon="trending-up"
-  href="/admin-dashboard/analytics"
->
-  See shop performance and popular items.
+<Card title="View Analytics" icon="trending-up" href="/admin-dashboard/analytics">
+  See shop performance
 </Card>
-
